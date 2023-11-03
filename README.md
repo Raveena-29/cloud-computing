@@ -34,8 +34,7 @@
 -> L3 : IP[ Address(32 Bits) , Router 
 -> L2 - Hardware Address, NIC , MAC Address(48 Bits) , Ethernet , Switch 
 -> L1 : Digiital (1 and 0)`
-
-<br>
+<br> 
 **Switch** : Connects devices in a network to each other , enabling them to talk by exchanging data packets.
 <br>
 **Virtual Machine** : Created by using Hypervisor
