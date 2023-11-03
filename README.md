@@ -58,7 +58,7 @@
 <br>
 **Docker** :
 - A set of PaaS products
-  - OS-level irtualization to deliver software in packages (Containers)
+  - OS level irtualization to deliver software in packages (Containers)
 + The software thathots the containers is called Docker Engine
   + released in 2013
     + Developed by Docker , Inc
