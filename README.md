@@ -56,9 +56,10 @@
 + It renders your templates and communicates with the kubernetes API 
 * Charts are Helm packages
 <br>
-**Docker** 
-- A set of PaaS products
+**Docker**
+1. A set of PaaS products
    - OS level irtualization to deliver software in packages (Containers)
-+ The software thathots the containers is called Docker Engine
-   + released in 2013
-     + Developed by Docker , Inc
+2. Software that hosts the containers is called Docker Engine
+   - Released in 2013
+     - Developed by Docker , Inc 
+ 
