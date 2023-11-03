@@ -55,7 +55,9 @@
 - Helps in managing Kubernetes applications 
 + It renders your templates and communicates with the kubernetes API 
 * Charts are Helm packages
+
 <br>
+
 **Docker**
 1. A set of PaaS products
    - OS level irtualization to deliver software in packages (Containers)
