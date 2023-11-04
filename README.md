@@ -57,19 +57,28 @@
 
 **DNS** :
 - Turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.
+- 
 <br>
+
 **ISA** : instruction Set Architecture , Hardware interaction , input - outputs , registers , data types 
+
 <br>
+
 **IP Address** : Internet Protocol (IPv4 , IPv6)
 <br>
+
 **Public IP** : B/W Internet and Device, assigned by internet service provider to the device
 <br>
+
 **Private IP** : Private network addresses are not allocated to any specific organization(can use without approval from regional or local internet registries).In a private network (starts with 10,17.16 , 192.168).
 <br>
+
 **Port No.** : a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server.(For HTTP- 80 , SSH-22 , SMTP- 25 , Telnet-23 , HHTPS - 443)
 <br>
+
 **SSL** - Secure Socket Layer - IP Address+Port Number 
 <br>
+
 **Seven Layers of OSI** (Open Systems Interconnection)
 
  - L7 : Application 
@@ -81,25 +90,34 @@
  - L1 : Digiital (1 and 0)
    
 <br> 
+
 **Switch** : Connects devices in a network to each other , enabling them to talk by exchanging data packets.
 <br>
+
 **Virtual Machine** : 
 - Created by using Hypervisor
 + virtualization or emulation of a computer system
 * 
 <br>
-**FPGA** : Field Programmable Gate Arrays . Array of Programmable logic block 
+
+**FPGA** : 
+- Field Programmable Gate Arrays
+-  Array of Programmable logic block 
 <br>
+
 **Libvirt** : 
 -Open source API 
 *managing platform virtualization
 +Used to manage KVM , Xen, VMware ESXI , QEMU 
 -C Library with binding in other languages.
 <br>
+
 **LXC** : lightweight Linux container system 
 <br>
+
 **OpenVZ** : lightweight Linux container system  
 <br>
+
 **Helm** 
 - Helps in managing Kubernetes applications 
 + It renders your templates and communicates with the kubernetes API 
