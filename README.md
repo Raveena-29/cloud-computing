@@ -1,17 +1,56 @@
 # cloud-computing
 ##**Keywords**
 <br>
-**etcd** : Etcd is a key-value data store. It reliably stores the configuration data of the cluster, representing the overall state of the cluster at any given point of time. Favors consistency over availability in the event of a network partition.
+
+**etcd** : 
+- Open source key value data store
+- Manage and store data that help keep distributed systems running
+- Well known for being on of core components of kubernetes
+  - manages and stored kubernetes State Data , configuration data and meta data
+
+**Features of etcd**
+1. Fully replicated
+   - every node in an etcd cluster has access to the full data store.
+1. Reliably consistent
+   - every data read in an etcd cluster is going to return the most recent data right
+1. Highly Available
+   - can tolerate network partitions and hardware failure too
+1. Fast
+   - bendmarked at 10,000 writes per second
+1. Secure
+   - Uses transport layer security with SSL client certificate authentication.
+1. Simple to use
+   - A web app can read and write data to etcd using simple http JSON tools.
+1. Watch Function
+   - If configuration and store data of kubernetes ever go out of sync, etcd will let the kubernetes API know and the kubernetes API will reconfigure the cluster acccordingly.
+   
 <br>
-**CISC** : Complex instructiion set computer , closed source - Imtel , AMD
+
+**CISC** :
+- Complex instructiion set computer
+-  closed source - Intel , AMD
+-  single instructions can execute several low-level operations
+   - such as a load from memory, an arithmetic operation, and a memory store
 <br>
-**RISC** : Reduced Instruction Set Computer , Closed sourse-ARM
+
+**RISC** : 
+- Reduced Instruction Set Computer
+-  Closed sourse-ARM
 <br>
-**RISC-V** : It is an ISA based on reduced instruction set computer(RISC) principles. Open source
+
+**RISC-V** : 
+- It is an ISA based on reduced instruction set computer(RISC) principles
+-  Open source
 <br>
-**Kernel** : Program to manage communication between software . User-level applications and hardware. CPU and disk memory
+
+**Kernel** : 
+- Program to manage communication between software .
+-  User-level applications and hardware.
+-   CPU and disk memory
 <br>
-**DNS** : Turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.
+
+**DNS** :
+- Turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.
 <br>
 **ISA** : instruction Set Architecture , Hardware interaction , input - outputs , registers , data types 
 <br>
@@ -27,17 +66,21 @@
 <br>
 **Seven Layers of OSI** (Open Systems Interconnection)
 
-`-> L7 : Application 
--> L6 : Presentation
--> L5 : Cryptography 
--> L4 : Port Number (16 Bits)
--> L3 : IP[ Address(32 Bits) , Router 
--> L2 - Hardware Address, NIC , MAC Address(48 Bits) , Ethernet , Switch 
--> L1 : Digiital (1 and 0)`
+ - L7 : Application 
+ + L6 : Presentation
+ * L5 : Cryptography 
+ - L4 : Port Number (16 Bits)
+ + L3 : IP[ Address(32 Bits) , Router
+ * L2 - Hardware Address, NIC , MAC Address(48 Bits) , Ethernet , Switch 
+ - L1 : Digiital (1 and 0)
+   
 <br> 
 **Switch** : Connects devices in a network to each other , enabling them to talk by exchanging data packets.
 <br>
-**Virtual Machine** : Created by using Hypervisor
+**Virtual Machine** : 
+- Created by using Hypervisor
++ virtualization or emulation of a computer system
+* 
 <br>
 **FPGA** : Field Programmable Gate Arrays . Array of Programmable logic block 
 <br>
