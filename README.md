@@ -5,7 +5,7 @@
 **etcd** : 
 - Open source key value data store
 - Manage and store data that help keep distributed systems running
-- Well known for being on of core components of kubernetes
+- Well known for being one of core components of kubernetes
   - manages and stored kubernetes State Data , configuration data and meta data
 
 **Features of etcd**
@@ -36,6 +36,12 @@
 **RISC** : 
 - Reduced Instruction Set Computer
 -  Closed sourse-ARM
+-  computer architecture designed to simplify the individual instructions given to the computer to accomplish tasks
+-  require more instructions (more code) in order to accomplish a task
+   - the individual instructions are written in simpler code
+-  each instruction performs only one function
+   - Example : copy a value from memory to a register
+  
 <br>
 
 **RISC-V** : 
