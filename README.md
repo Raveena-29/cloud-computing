@@ -47,26 +47,62 @@
 **RISC-V** : 
 - It is an ISA based on reduced instruction set computer(RISC) principles
 -  Open source
+-  Royalty-free (RF)
+-  load–store architecture
+-  Its floating-point instructions use IEEE 754 floating-point
+  
 <br>
 
 **Kernel** : 
-- Program to manage communication between software .
--  User-level applications and hardware.
--   CPU and disk memory
+-  computer program at the core of a computer's operating system(OS) 
+-  Program to manage communication between software .
+- generally has complete control over everything in the system
+-  responsible for preventing and mitigating conflicts between different processes
+-  
 <br>
 
 **DNS** :
+- Domain Name System
 - Turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.
 - 
 <br>
 
-**ISA** : instruction Set Architecture , Hardware interaction , input - outputs , registers , data types 
-
+**ISA** :
+- instruction Set Architecture
+- Hardware interaction
+- Implemntation
+  -  A device that executes instructions described by that ISA, such as a central processing unit (CPU), is called an implementation.
+- ISA stands for Instruction Set Architecture.
+- It refers to the set of instructions that a computer processor can execute.
+- The ISA defines the operations and behavior of a processor, including the data types, registers, and memory addressing modes.
+- Different processors can have different ISAs, which determine their compatibility with software and operating systems.
+- The ISA serves as an interface between the hardware and software layers of a computer system.
+- It defines the binary format of instructions and how they are executed by the processor.
+- Common ISAs include x86, ARM, MIPS, and PowerPC.
+- Software developers need to write code that is compatible with a specific ISA to ensure it can run on a particular processor or architecture.
+- ISA designs can influence factors such as performance, power efficiency, and overall system design.
+- outing datagrams from a source host interface to a destination host interface across one or more IP networks
 <br>
 
-**IP Address** : Internet Protocol (IPv4 , IPv6)
+**IP Address** :
+- Internet Protocol (IPv4 , IPv6)
+-  network layer communications protocol
+-  delivering packets from the source host
+-  Its routing function enables internetworking
+-  defines packet structures
+   - that encapsulate the data to be delivered.
+- defines addressing methods
+  - that are used to label the datagram with source and destination information
+- addressing host interfaces, encapsulating data into datagrams
+- Each datagram has two components
+  - Header
+    -  IP header: includes a source IP address, a destination IP address, and other metadata needed to route and deliver the datagram
+  - Payload
+    - IP payload : payload is the data that is transported.
+    - method of nesting the data payload in a packet with a header is called encapsulation
 <br>
-
+**IPsec**
+<br>
 **Public IP** : B/W Internet and Device, assigned by internet service provider to the device
 <br>
 
@@ -94,10 +130,11 @@
 **Switch** : Connects devices in a network to each other , enabling them to talk by exchanging data packets.
 <br>
 
-**Virtual Machine** : 
-- Created by using Hypervisor
-+ virtualization or emulation of a computer system
-* 
+**VM**  
+- Virtual Machine
+-  Created by using Hypervisor
+-  virtualization or emulation of a computer system
+ 
 <br>
 
 **FPGA** : 
@@ -131,4 +168,111 @@
 2. Software that hosts the containers is called Docker Engine
    - Released in 2013
      - Developed by Docker , Inc 
+ <br>
  
+**Openstack** 
+-  free, open source cloud computing platform
+-   deployed as infrastructure-as-a-service (IaaS)
+   - n both public and private clouds where virtual servers and other resources are made available to users.
+
+<br>
+
+**Proxmox**
+<br>
+**AWS**
+<br>
+**Network Layer**
+<br>
+**Datagram**
+<br>
+**Helm**
+<br>
+**Webassembly** 
+<br>
+**YOTTA**
+- design, build and operate infinitely scalable Data Center Parks
+<br>
+**HCI**
+- Human-computer interaction
+- four main components
+  - the user
+  -  task
+  -   tools / interface
+  -    context.
+- HCI researchers analyze and design specific user interface technologies
+  - e.g. pointing devices
+<br>
+**Kubernetes**
+- K8s
+- an open-source container orchestration system
+  - for automating software deployment, scaling, and management
+- Originally designed by Google
+  -  the project is now maintained by the Cloud Native Computing Foundation
+- Kubernetes works with various container runtimes
+  - such as containerd and CRI-O
+- Wriiten in Go
+- Kubernetes defines a set of building blocks ("primitives") that collectively provide mechanisms that deploy, maintain, and scale applications based on CPU, memory or custom metrics.
+- loosely coupled and extensible to meet the needs of different workloads.
+<br>
+**Container**
+- containerization is operating system-level virtualization or application-level virtualization over multiple network resources so that software applications can run in isolated user spaces called containers in any cloud or non-cloud environment, regardless of type or vendor.
+- Types of containers
+  - OS containers
+  - Application containers
+-  the containerization technology has been widely adopted by cloud computing platforms.
+   - like AWS, Microsoft Azure, Google Cloud Platform, and IBM Cloud.
+- Security issues
+  - Because of the shared OS, security threats can affect the whole containerized system.
+  - In containerized environments, security scanners generally protect the OS but not the application containers, which adds unwanted vulnerability
+<br>
+**Bare-metal Server**
+- used by one consumer, or tenant, only.
+
+<br>
+
+**OOPS**
+- Object-Oriented Programming System
+- Four types of OOPs
+  - Abstraction
+  -  encapsulation
+  -   polymorphism
+  -    inheritance
+<br>
+ 
+**KVM**
+- Kernel-based Virtual Machine
+<br>
+**Overlay network**
+<br>
+**Host Network**
+<br>
+**TUN flannel**
+<br>
+**OS**
+  <br>
+**ARP linux**
+- Address Resolution Protocol
+  <br>
+**RARP**
+<br>
+**TAP**
+  <br>
+**Libvirt**
+**User-Space**
+  <br>
+**Kernel-Space**
+<br>
+**Ovirt**
+  <br>
+  **Kubevirt**
+  <br>
+  **RAFT**
+  <br>
+  **Calico Flannel**
+  <br>
+  **RKT**
+  <br>
+  
+  **VXLAN**
+  <br>
+  
