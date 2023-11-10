@@ -294,4 +294,27 @@
   
   **VXLAN**
   <br>
-  
+  **Hypervisor**
+  <br>
+  **Type-1**
+  <br>
+  **Type-2**
+  <br>
+  **VirtualBox**
+  <br>
+  **VMware workstation**
+<br>
+**Apache Mesos**
+- open-source
+- project to manage computer clusters.
+-  It was developed at the University of California, Berkeley.
+<br>
+**Vendor lock-in**
+- a situation in which a client gets dependent on a certain cloud provider in order to complete their computing needs
+- The client is not able to readily switch to another provider without incurring large expenditures or experiencing business disruptions
+- This might occur when a customer has committed considerable resources to a certain cloud platform
+  - such as building apps or transferring data there
+  - and is unable to switch platforms without paying a hefty fee.
+- This may restrict the ability of the customer to transfer providers and may offer the provider a powerful negotiating position when negotiating prices and other issues.
+  <br>
+  ![Vendor-Lock-in](https://github.com/Raveena-29/cloud-computing/assets/148243757/189813f6-f1c6-479f-9596-3907fb71f02c)
