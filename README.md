@@ -309,6 +309,7 @@
 - project to manage computer clusters.
 -  It was developed at the University of California, Berkeley.
 <br>
+
 **Vendor lock-in**
 - a situation in which a client gets dependent on a certain cloud provider in order to complete their computing needs
 - The client is not able to readily switch to another provider without incurring large expenditures or experiencing business disruptions
@@ -316,5 +317,36 @@
   - such as building apps or transferring data there
   - and is unable to switch platforms without paying a hefty fee.
 - This may restrict the ability of the customer to transfer providers and may offer the provider a powerful negotiating position when negotiating prices and other issues.
-  <br>
-  ![Vendor-Lock-in](https://github.com/Raveena-29/cloud-computing/assets/148243757/189813f6-f1c6-479f-9596-3907fb71f02c)
+
+![Vendor-Lock-in](https://github.com/Raveena-29/cloud-computing/assets/148243757/f0c6fee5-58ad-4d4a-94b4-1b65b1185878)
+- Disadvantages of Vendor Lock-in
+  - Limited Flexibility
+  - Higher prices
+  - Dependence on a Single Provider:
+  - Limited Scalability
+  - Data Migration Challenges
+  - Limited Control over the Technology Stack
+<br>
+**NUMA**
+- Non-uniform memory access
+- computer memory design
+  - used in multiprocessing
+  -  the memory access time depends on the memory location relative to the processor
+- Each processor is connected to specific memory region
+- a processor can access its own local memory faster than non-local memory
+- This design aims to reduce memory access latency and increase overall system performance
+<br>
+- Benifits
+  - Non uniform access time
+  - Scalability
+  - Improves performance
+<br>
+**Cilium**
+- Cilium is a networking, observability, and security solution with an eBPF-based dataplane.
+- It provides a simple flat Layer 3 network with the ability to span multiple clusters in either a native routing or overlay mode.
+- L7-protocol aware
+<br>
+**CEPH**
+- Free and Open Source
+-  storage platform that provides object storage, block storage, and file storage built on a common distributed cluster foundation
+-  
