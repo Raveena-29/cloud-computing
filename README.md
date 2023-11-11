@@ -64,7 +64,7 @@
 **DNS** :
 - Domain Name System
 - Turns domain names into IP addresses, which allow browsers to get to websites and other internet resources.
-- 
+  
 <br>
 
 **ISA** :
@@ -100,19 +100,58 @@
   - Payload
     - IP payload : payload is the data that is transported.
     - method of nesting the data payload in a packet with a header is called encapsulation
+  - An IP Address is basically classified into two types:
+    - Private IP Address
+    - Public IP Address
 <br>
 **IPsec**
-<br>
-**Public IP** : B/W Internet and Device, assigned by internet service provider to the device
+- Internet Protocol Security
+- secure network protocol suite that authenticates and encrypts packets of data to provide secure encrypted communication between two computers over an Internet Protocol network.
+- used in virtual private networks (VPNs)
+- IPsec can control data flows between:
+  - host-to-host
+  - network-to-network
+  - network-to-host
+  
 <br>
 
-**Private IP** : Private network addresses are not allocated to any specific organization(can use without approval from regional or local internet registries).In a private network (starts with 10,17.16 , 192.168).
+**Public IP** 
+-  an IPv4 address that is reachable from the internet.
+-  All public IP addresses on the Internet are unique to their host or server and cannot duplicate
+-  The scope of Public IP is global.
+-  Public IP Address is basically of two types:
+   - Dyanamic IP address
+     - addresses that change over time.
+   - Static IP address
+     - addresses that do not change with time
+     - Mostly these are used by the DNS (Domain Name System) Servers.
+-  For example
+   -  google.com — 172.217. 22.14
+   -   Google's DNS server — 8.8. 8.8
 <br>
 
-**Port No.** : a way to identify a specific process to which an internet or other network message is to be forwarded when it arrives at a server.(For HTTP- 80 , SSH-22 , SMTP- 25 , Telnet-23 , HHTPS - 443)
+**Private IP** 
+- IP address that is used to communicate within the same network
+- Unique private IP Addresses are provided to each and every device that is present on the network.
+- It is available free of cost
+- The scope of Private IP is local.
 <br>
 
-**SSL** - Secure Socket Layer - IP Address+Port Number 
+**Port No.** 
+- number assigned to uniquely identify a connection endpoint and to direct data to a specific service
+- At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service.
+- The most common transport protocols that use port numbers are:
+  - the Transmission Control Protocol (TCP)
+  -  the User Datagram Protocol (UDP)
+  -  those port numbers are 16-bit unsigned numbers.
+<br>
+
+**SSL** 
+- Secure Socket Layer
+-  Used to secure communication between a web browser and a web server
+-  This turns a website's address from HTTP to HTTPS, the 'S' standing for 'secure'
+-  all SSL certificates are no longer in use
+-  However, the industry continues to use the term SSL to refer to TLS certificates.
 <br>
 
 **Seven Layers of OSI** (Open Systems Interconnection)
@@ -127,7 +166,11 @@
    
 <br> 
 
-**Switch** : Connects devices in a network to each other , enabling them to talk by exchanging data packets.
+**Switch** 
+- Connects devices in a network to each other
+- enabling them to talk by exchanging data packets.
+- Switches can be hardware devices that manage physical networks or software-based virtual devices.
+- A network switch operates on the data-link layer, or Layer 2, of the Open Systems Interconnection (OSI) model.
 <br>
 
 **VM**  
@@ -202,6 +245,7 @@
 - HCI researchers analyze and design specific user interface technologies
   - e.g. pointing devices
 <br>
+
 **Kubernetes**
 - K8s
 - an open-source container orchestration system
@@ -214,6 +258,7 @@
 - Kubernetes defines a set of building blocks ("primitives") that collectively provide mechanisms that deploy, maintain, and scale applications based on CPU, memory or custom metrics.
 - loosely coupled and extensible to meet the needs of different workloads.
 <br>
+
 **Container**
 - containerization is operating system-level virtualization or application-level virtualization over multiple network resources so that software applications can run in isolated user spaces called containers in any cloud or non-cloud environment, regardless of type or vendor.
 - Types of containers
@@ -225,6 +270,7 @@
   - Because of the shared OS, security threats can affect the whole containerized system.
   - In containerized environments, security scanners generally protect the OS but not the application containers, which adds unwanted vulnerability
 <br>
+
 **Bare-metal Server**
 - used by one consumer, or tenant, only.
 
@@ -327,6 +373,7 @@
   - Data Migration Challenges
   - Limited Control over the Technology Stack
 <br>
+
 **NUMA**
 - Non-uniform memory access
 - computer memory design
@@ -341,11 +388,13 @@
   - Scalability
   - Improves performance
 <br>
+
 **Cilium**
 - Cilium is a networking, observability, and security solution with an eBPF-based dataplane.
 - It provides a simple flat Layer 3 network with the ability to span multiple clusters in either a native routing or overlay mode.
 - L7-protocol aware
 <br>
+
 **CEPH**
 - Free and Open Source
 -  storage platform that provides object storage, block storage, and file storage built on a common distributed cluster foundation
