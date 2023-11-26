@@ -2,6 +2,29 @@
 ##**Keywords**
 <br>
 
+**Cloud computing**
+- Cloud computing is the delivery of computing services
+  - including servers , storage , databases , networking , software , analytics and intelligence
+  - over the internet("the cloud") to offer faster innovation , flexible resources and economies of scale
+<br>
+
+**Benefits of Cloud**
+- Faster time to market
+- Scalability and flexibility
+- Cost savings
+- Better collaboration
+- Advanced security
+- Data loss prevention
+<br>
+
+**Disadvantages of Cloud**
+- risk of vendor lock-in
+- less control oer underlying cloud infrastructure
+- concerns about security risks like data privacy and online threats
+- integration complexity with existing systems
+- unforeseen costs and unexpected expenses
+<br>
+
 **etcd** : 
 - Open source key value data store
 - Manage and store data that help keep distributed systems running
