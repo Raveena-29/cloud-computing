@@ -24,6 +24,17 @@
 - integration complexity with existing systems
 - unforeseen costs and unexpected expenses
 <br>
+**MQ** :
+- Magic quadrant
+- Series of market research reports published by IT consulting firm Gartner that rely on proprietary qualitative data analysis methods to demonstrate market trends, such as direction, maturity and participants.
+- Their analyses are conducted for several specific technology industries and are updated every 1–2 years: once an updated report has been published, its predecessor is "retired".
+
+  <br>
+  
+**Gartner's Magic Quadrant**
+- The Gartner Magic Quadrant is a visual method of reporting. Magic Quadrants are used to depict which companies are leading the way within a specific market.
+  ![gartner-2023](https://github.com/Raveena-29/cloud-computing/assets/148243757/7f36c2e7-0110-4cc9-bf4a-ec5460fc0734)
+<br>
 
 **etcd** : 
 - Open source key value data store
@@ -49,6 +60,35 @@
    
 <br>
 
+**EC2**
+- Amazon Elastic Compute Cloud(EC2)
+- A part of Amazon.com's cloud-computing platform, Amazon Web Services (AWS)
+- Allows users to rent virtual computers on which to run their own computer applications.
+- EC2 encourages scalable deployment of applications by providing a web service through which a user can boot an Amazon Machine Image (AMI) to configure a virtual machine, which Amazon calls an "instance", containing any software desired.
+- A user can create, launch, and terminate server-instances as needed, paying by the second for active servers – hence the term "elastic".
+- EC2 provides users with control over the geographical location of instances that allows for latency optimization and high levels of redundancy.
+<br>
+
+**Dedicated host**
+- A dedicated hosting service, dedicated server, or managed hosting service is a type of Internet hosting in which the client leases an entire server not shared with anyone else.
+- This is more flexible than shared hosting, as organizations have full control over the server(s), including choice of operating system, hardware, etc.
+<br>
+
+**AMI**
+- Amazon Machine Image(AMI)
+- a special type of virtual appliance that is used to create a virtual machine within the EC2
+- It serves as the basic unit of deployment for services delivered using EC2.
+<br>
+
+**IaaS** :
+<br>
+
+**PaaS**
+<br>
+
+**SaaS**
+<br>
+
 **CISC** :
 - Complex instructiion set computer
 -  closed source - Intel , AMD
@@ -62,7 +102,7 @@
 -  computer architecture designed to simplify the individual instructions given to the computer to accomplish tasks
 -  require more instructions (more code) in order to accomplish a task
    - the individual instructions are written in simpler code
--  each instruction performs only one function
+-  Each instruction performs only one function
    - Example : copy a value from memory to a register
   
 <br>
@@ -158,6 +198,12 @@
 - Unique private IP Addresses are provided to each and every device that is present on the network.
 - It is available free of cost
 - The scope of Private IP is local.
+<br>
+
+**Hybrid Cloud**
+- Combination of both priate and public cloud
+- Shared security responsiility
+- Helps maintain tighter controls over sensitive data and processes
 <br>
 
 **Port No.** 
