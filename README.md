@@ -24,6 +24,18 @@
 - integration complexity with existing systems
 - unforeseen costs and unexpected expenses
 <br>
+
+**AWS**
+- Amazon web serices
+- AWS is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
+- Clients will often use this in combination with autoscaling.
+- These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms.
+<br>
+
+**Autoscaling**
+- 
+<br>
+
 **MQ** :
 - Magic quadrant
 - Series of market research reports published by IT consulting firm Gartner that rely on proprietary qualitative data analysis methods to demonstrate market trends, such as direction, maturity and participants.
@@ -81,12 +93,18 @@
 <br>
 
 **IaaS** :
+- Infrastructure as a service
+- IaaS is a cloud computing service model by means of which computing resources are supplied by a cloud services provider.
+- The IaaS vendor provides the storage, network, servers, and virtualization
+- 
 <br>
 
 **PaaS**
+- Platform as a service
 <br>
 
 **SaaS**
+- Software as a service
 <br>
 
 **CISC** :
@@ -468,3 +486,10 @@
 - Free and Open Source
 -  storage platform that provides object storage, block storage, and file storage built on a common distributed cluster foundation
 -  
+<br>
+
+**Subsidiary**
+- A subsidiary, subsidiary company or daughter company is a company owned or controlled by another company, which is called the parent company or holding company.
+- Two or more subsidiaries that either belong to the same parent company or having a same management being substantially controlled by same entity/group are called sister companies.
+- The subsidiary will be required to follow the laws where it is headquartered and incorporated.
+-  It will also maintain its own executive leadership.
