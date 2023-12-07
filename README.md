@@ -494,6 +494,7 @@ aws ec2 describe-availability-zones --region region-name
 - a processor can access its own local memory faster than non-local memory
 - This design aims to reduce memory access latency and increase overall system performance
 <br>
+
 - Benifits
   - Non uniform access time
   - Scalability
