@@ -26,14 +26,38 @@
 <br>
 
 **AWS**
+-
 - Amazon web serices
 - AWS is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
 - Clients will often use this in combination with autoscaling.
 - These cloud computing web services provide various services related to networking, compute, storage, middleware, IoT and other processing capacity, as well as software tools via AWS server farms.
+  <br>
+  **Region in AWS**
+  - Amazon cloud computing resources are hosted in multiple locations world-wide.
+  - These locations are composed of AWS Regions, Availability Zones, and Local Zones.
+  - Each AWS Region is a separate geographic area.
+  - Each AWS Region has multiple, isolated locations known as Availability Zones.
+  - Each AWS Region is completely independent.
+    - Any Amazon RDS activity you initiate (for example, creating database instances or listing available database instances) runs only in your current default AWS Region
+  - 
+  ![AZ2](https://github.com/Raveena-29/cloud-computing/assets/148243757/248e784a-b8d1-48c3-95d9-1d4ad535e0ed)
+<br>
+
+  ![Con-AZ-Local](https://github.com/Raveena-29/cloud-computing/assets/148243757/7dc8e24d-9d53-461e-9132-3c0246695039)
+<br>
+
+**Availability Zone**
+- When you create a DB instance, you can choose an Availability Zone or have Amazon RDS choose one for you randomly.
+- An Availability Zone is represented by an AWS Region code followed by a letter identifier (for example, us-east-1a).
+- Use the describe-availability-zones Amazon EC2 command as follows to describe the Availability Zones within the specified Region that are enabled for your account.
+```
+aws ec2 describe-availability-zones --region region-name
+```
+![availability zone](https://github.com/Raveena-29/cloud-computing/assets/148243757/c2676a5b-1f84-4161-9d3e-1f25a613c116)
 <br>
 
 **Autoscaling**
-- 
+
 <br>
 
 **MQ** :
