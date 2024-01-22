@@ -389,6 +389,7 @@ aws ec2 describe-availability-zones --region region-name
 
 **OOPS**
 - Object-Oriented Programming System
+- It's just a simple notion or a way of writing a program where we hae classes and objects.
 - Four types of OOPs
   - Abstraction
   -  encapsulation
@@ -518,3 +519,21 @@ aws ec2 describe-availability-zones --region region-name
 - Two or more subsidiaries that either belong to the same parent company or having a same management being substantially controlled by same entity/group are called sister companies.
 - The subsidiary will be required to follow the laws where it is headquartered and incorporated.
 -  It will also maintain its own executive leadership.
+<br>
+
+**C++**
+- C++ developed in 1979
+- In 1979, Bjarne Stroustrup, a Danish computer scientist, began work on "C with Classes", the predecessor to C++.
+- C++ is a general purpose(it has a wide variety of use cases and is used in large areas.) object-oriented programming language.
+- It is a middle-level langauge, as it encapsulates both high and low level language features.
+- C++ supports both procedural and object oriented programming paradigms. Therefore, C++ is also called a hybrid language.
+- C++ is a Must for students and working professionals to become a great Software Engineer.
+- C++ is very close to hardware, so you get a chance to work at a low level which gives you a lot of control in terms of memory management, better performance and finally robust software development.
+- Some of today's most visible used systems have their critical parts written in C++.
+  - Bloomberg (Financial formation)
+  - Amazon(Web commerce)
+  - Google (Web Search)
+  - Facebook (Social Media)
+- C++ is used to create games and graphics.
+- C++ is used in ATM machines from which you withdraw cash.
+- 
